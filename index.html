@@ -55,11 +55,16 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main class="page-main">
-      <section class="solution">
+      <section class="hidden">
         <div class="container main-container">
           <h1 class="main-heading">Effective Solutions for Your Business</h1>
           <button type="button" class="my-button" data-modal-open>
@@ -68,7 +73,7 @@
         </div>
       </section>
 
-      <section class="features">
+      <section class="hidden">
         <div class="container features-container">
           <h2 class="section-title visually-hidden">Our Features</h2>
           <ul class="features-list">
@@ -127,7 +132,7 @@
         </div>
       </section>
 
-      <section class="team">
+      <section class="hidden">
         <div class="container team-container">
           <h2 class="our-team">Our Team</h2>
           <ul class="our-team-list">
@@ -306,7 +311,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="hidden">
         <div class="container portfolio-container">
           <h2 class="our-portfolio">Our Portfolio</h2>
           <ul class="our-portfolio-list">
@@ -494,7 +499,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
