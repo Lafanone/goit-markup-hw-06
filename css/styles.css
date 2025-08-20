@@ -446,15 +446,6 @@ button{
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        box-sizing: border-box;
-    }
-
-    .team-container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .our-team-list {
         display: flex;
         flex-direction: row;
@@ -464,23 +455,13 @@ button{
         padding-left: 108px;
         padding-right: 108px;
     }
-
-    .our-team-item {
-        width: calc(50% - 12px);
-    }
 }
 
 @media screen and (min-width: 1158px) {
-    .container {
-        width: 1158px;
-    }
-
-    .team {
-        padding: 120px 0;
-    }
-
     .our-team-list {
         gap: 24px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .our-team-item {
