@@ -635,13 +635,6 @@ button{
 }
 
 @media screen and (min-width: 768px) {
-
-    .team-container{
-        padding-left: 108px;
-        padding-right: 108px;
-
-    }
-
     .our-team-list {
         display: flex;
         flex-direction: row;
@@ -841,7 +834,6 @@ button{
     }
 }
 
-
 .modal-close-btn {
     position: absolute;
     top: 24px;
@@ -969,7 +961,8 @@ button{
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .modal-own-check {
@@ -984,7 +977,12 @@ button{
     align-items: center;
     justify-content: center;
     fill: transparent;
-    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.privacy-text-wrap {
+    display: block;
+    flex-grow: 1;
 }
 
 .modal-check:checked+.modal-check-text .modal-own-check {
@@ -1022,6 +1020,17 @@ button{
 .modal-form-btn:hover,
 .modal-form-btn:focus {
     background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+    .privacy-text-wrap {
+        display: inline;
+        white-space: nowrap;
+    }
+
+    .modal-check-text {
+        align-items: center;
+    }
 }
 
 /* footer */
