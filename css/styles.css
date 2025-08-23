@@ -425,7 +425,7 @@ button{
         padding: 112px 0;
         max-width: 768px;
         background-image: -image-set(url('../images/office/people-tab.jpg') 1x, url('../images/office/people-tab@2x.jpg') 2x);
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
 
     }
 
@@ -439,10 +439,10 @@ button{
 
 @media screen and (min-width: 1158px) {
     .solution {
-        padding: 112px 0;
+        padding: 188px 0;
         max-width: 1440px;
         background-image: -image-set(url('../images/office/people-desk.jpg') 1x, url('../images/office/people-desk@2x.jpg') 2x);
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
     }
 
     .main-heading {
@@ -527,7 +527,6 @@ button{
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
-        text-align: center;
 }
 
 .features-description {
