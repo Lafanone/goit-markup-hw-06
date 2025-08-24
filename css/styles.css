@@ -376,7 +376,6 @@ button{
 .solution {
     max-width: 320px;
     padding: 72px 0;
-    background-image: -image-set(url('../images/office/people-mob.jpg') 1x, url('../images/office/people-mob@2x.jpg') 2x) ;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -395,6 +394,14 @@ button{
     text-align: center;
     color: #fff;
     margin-bottom: 72px;
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx),
+(min-device-pixel-ratio: 2) {
+    .solution {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/office/people-mob@2x.jpg');
+    }
 }
 
 .my-button {
@@ -424,10 +431,16 @@ button{
     .solution {
         padding: 112px 0;
         max-width: 768px;
-        background-image: -image-set(url('../images/office/people-tab.jpg') 1x, url('../images/office/people-tab@2x.jpg') 2x);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
-
     }
+
+        @media (min-resolution: 192dpi),
+        (min-resolution: 2dppx),
+        (min-device-pixel-ratio: 2) {
+            .solution {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/office/people-tab@2x.jpg');
+            }
+        }
 
     .main-heading {
         font-size: 56px;
@@ -441,9 +454,16 @@ button{
     .solution {
         padding: 188px 0;
         max-width: 1440px;
-        background-image: -image-set(url('../images/office/people-desk.jpg') 1x, url('../images/office/people-desk@2x.jpg') 2x);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
     }
+
+         @media (min-resolution: 192dpi),
+         (min-resolution: 2dppx),
+         (min-device-pixel-ratio: 2) {
+             .solution {
+                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/office/people-desk@2x.jpg');
+             }
+         }
 
     .main-heading {
         font-size: 56px;
